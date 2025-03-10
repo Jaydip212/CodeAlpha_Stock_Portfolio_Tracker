@@ -40,7 +40,7 @@ def show_portfolio(api_key):
     print(tabulate(data, headers=["Symbol", "Qty", "Buy Price", "Current Price", "P/L"]))
 
 if __name__ == "__main__":
-    API_KEY = "XI47R37TRJ4AENP4"  # Alpha Vantage API Key 
+    API_KEY = "OBPGFEPAT5SU0RUT"  # Alpha Vantage API Key 
     tracker = PortfolioTracker("portfolio.csv")
     tracker.add_stock("GOOGL", 5, 2500)
     tracker.remove_stock("TSLA")
